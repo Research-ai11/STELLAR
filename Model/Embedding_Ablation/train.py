@@ -20,8 +20,8 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 from param_parser import parameter_parser
-from Next_POI_Recommendation.Model.datasets import TrajectoryDataset
-from Next_POI_Recommendation.Model.utils import (
+from STELLAR.Model.datasets import TrajectoryDataset
+from STELLAR.Model.utils import (
     TrajectoryCollator2,
     increment_path,
     zipdir,
